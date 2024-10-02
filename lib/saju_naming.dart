@@ -37,7 +37,7 @@ class _SajuNamingState extends State<SajuNaming> with SingleTickerProviderStateM
   late Animation<int> _animation;
 
   bool isLoading = false;
-  bool isReadyModel = true;
+  bool isReadyModel = false;
   bool isEnd = false;
 
   @override
