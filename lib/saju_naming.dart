@@ -67,8 +67,8 @@ class _SajuNamingState extends State<SajuNaming> with SingleTickerProviderStateM
       body: Center(
         child: SingleChildScrollView(
           child: Container(
-            width: 500,
-            height: 500,
+            width: 600,
+            height: 600,
             padding: const EdgeInsets.all(50),
             decoration: BoxDecoration(
               color: Colors.white,
@@ -175,7 +175,7 @@ class _SajuNamingState extends State<SajuNaming> with SingleTickerProviderStateM
             Text(day, style: const TextStyle(fontSize: 18), textAlign: TextAlign.center,),
           ],
         ),
-        Text('$prompt 이 사주는 $explain 이를 이용해 아래의 $userGender 이름을 추천합니다.', style: const TextStyle(fontSize: 18), textAlign: TextAlign.center,),
+        Text('$prompt 이 사주는 $explain\n이를 이용해 아래의 $userGender 이름을 추천합니다.', style: const TextStyle(fontSize: 18), textAlign: TextAlign.center,),
         const SizedBox(height: 20,),
         Text(selectedName, style: const TextStyle(fontSize: 18), textAlign: TextAlign.center,),
         const SizedBox(height: 20,),
@@ -454,8 +454,8 @@ class _SajuNamingState extends State<SajuNaming> with SingleTickerProviderStateM
 
   Widget chooseName(BuildContext context, int index) {
     return Container(
-        width: 150,
-        height: 150,
+        width: 200,
+        height: 200,
         margin: const EdgeInsets.all(10),
         decoration: BoxDecoration(
           color: Colors.white,
