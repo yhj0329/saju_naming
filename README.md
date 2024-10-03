@@ -3,6 +3,13 @@
 해당 프로젝트에서 사주를 이용하여 이름을 추천해주는 모델을 fine-tuning을 통해 구현하였다.  
 자세한 내용은 [saju_naming](https://github.com/5KLetsGo/saju_naming)에서 확인할 수 있다.
 
+## Demo
+아래의 영상은 [saju_naming](https://github.com/5KLetsGo/saju_naming)에 있는 [saju_naming_server.ipynb](https://github.com/5KLetsGo/saju_naming/blob/main/saju_naming_fine_tuning.ipynb)를 Google Colab에서 실행하여 서버를 연 후,  
+[saju_naming_web](https://5kletsgo.github.io/saju_naming_web/)에서 시연한 영상이다. 
+
+https://github.com/user-attachments/assets/5ebeaf4d-c7a6-4c00-a942-b6a2cccbe7e5
+
+
 ## Model
 - **fine-tuning model** : [5KLetsGo/saju-naming](https://huggingface.co/5KLetsGo/saju-naming)
   - Developed by: 유혁진, 강승곤, 이도건
