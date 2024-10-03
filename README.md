@@ -97,5 +97,7 @@ Flask란 python 기반으로 작성된 Micro Web Framework 중 하나다.
 간단한 웹 사이트, 혹은 간단한 API 서버를 만드는 데에 특화 되어있는 Python Web Framework이다.
 
 ### ngrok
-[ngrok](https://ngrok.com/) 란 외부 인터넷 망에서 로컬 PC로 접속하는 방법을 제공하는 툴이다.
+[ngrok](https://ngrok.com/) 란 외부 인터넷 망에서 로컬 PC로 접속하는 방법을 제공하는 툴이다.  
+ngrok이 무료기 때문에 매 실행마다 접근할 수 있는 도메인이 달라진다.  
+
 
